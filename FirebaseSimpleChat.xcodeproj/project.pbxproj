@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBF701FB19B4651F00A8ACE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF701FA19B4651F00A8ACE2 /* main.m */; };
+		DBF701FE19B4651F00A8ACE2 /* RTSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF701FD19B4651F00A8ACE2 /* RTSAppDelegate.m */; };
+		DBF7020119B4651F00A8ACE2 /* RTSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF7020019B4651F00A8ACE2 /* RTSViewController.m */; };
+		DBF7020419B4651F00A8ACE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF7020219B4651F00A8ACE2 /* Main.storyboard */; };
+		DBF7020619B4651F00A8ACE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBF7020519B4651F00A8ACE2 /* Images.xcassets */; };
+		DBF7021219B4651F00A8ACE2 /* FirebaseSimpleChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF7021119B4651F00A8ACE2 /* FirebaseSimpleChatTests.m */; };
+		DBF7021C19B4668100A8ACE2 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF7021B19B4668100A8ACE2 /* libicucore.dylib */; };
+		DBF7021F19B466A100A8ACE2 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF7021E19B466A100A8ACE2 /* libc++.dylib */; };
+		DBF7022119B466AB00A8ACE2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF7022019B466AB00A8ACE2 /* CFNetwork.framework */; };
+		DBF7022319B466B300A8ACE2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF7022219B466B300A8ACE2 /* Security.framework */; };
+		DBF7022519B466C400A8ACE2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF7022419B466C400A8ACE2 /* SystemConfiguration.framework */; };
+		DBF7022719B4671600A8ACE2 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF7022619B4671600A8ACE2 /* Firebase.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBF7020C19B4651F00A8ACE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF701ED19B4651F00A8ACE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBF701F419B4651F00A8ACE2;
+			remoteInfo = FirebaseSimpleChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBF701F519B4651F00A8ACE2 /* FirebaseSimpleChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseSimpleChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF701F919B4651F00A8ACE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBF701FA19B4651F00A8ACE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBF701FC19B4651F00A8ACE2 /* RTSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTSAppDelegate.h; sourceTree = "<group>"; };
+		DBF701FD19B4651F00A8ACE2 /* RTSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTSAppDelegate.m; sourceTree = "<group>"; };
+		DBF701FF19B4651F00A8ACE2 /* RTSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTSViewController.h; sourceTree = "<group>"; };
+		DBF7020019B4651F00A8ACE2 /* RTSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTSViewController.m; sourceTree = "<group>"; };
+		DBF7020319B4651F00A8ACE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBF7020519B4651F00A8ACE2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DBF7020B19B4651F00A8ACE2 /* FirebaseSimpleChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseSimpleChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF7021019B4651F00A8ACE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBF7021119B4651F00A8ACE2 /* FirebaseSimpleChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirebaseSimpleChatTests.m; sourceTree = "<group>"; };
+		DBF7021B19B4668100A8ACE2 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		DBF7021E19B466A100A8ACE2 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		DBF7022019B466AB00A8ACE2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DBF7022219B466B300A8ACE2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DBF7022419B466C400A8ACE2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DBF7022619B4671600A8ACE2 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBF701F219B4651F00A8ACE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF7022519B466C400A8ACE2 /* SystemConfiguration.framework in Frameworks */,
+				DBF7022719B4671600A8ACE2 /* Firebase.framework in Frameworks */,
+				DBF7022319B466B300A8ACE2 /* Security.framework in Frameworks */,
+				DBF7022119B466AB00A8ACE2 /* CFNetwork.framework in Frameworks */,
+				DBF7021F19B466A100A8ACE2 /* libc++.dylib in Frameworks */,
+				DBF7021C19B4668100A8ACE2 /* libicucore.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF7020819B4651F00A8ACE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBF701EC19B4651F00A8ACE2 = {
+			isa = PBXGroup;
+			children = (
+				DBF701F719B4651F00A8ACE2 /* FirebaseSimpleChat */,
+				DBF7020E19B4651F00A8ACE2 /* FirebaseSimpleChatTests */,
+				DBF701F619B4651F00A8ACE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBF701F619B4651F00A8ACE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBF701F519B4651F00A8ACE2 /* FirebaseSimpleChat.app */,
+				DBF7020B19B4651F00A8ACE2 /* FirebaseSimpleChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBF701F719B4651F00A8ACE2 /* FirebaseSimpleChat */ = {
+			isa = PBXGroup;
+			children = (
+				DBF701FC19B4651F00A8ACE2 /* RTSAppDelegate.h */,
+				DBF701FD19B4651F00A8ACE2 /* RTSAppDelegate.m */,
+				DBF701FF19B4651F00A8ACE2 /* RTSViewController.h */,
+				DBF7020019B4651F00A8ACE2 /* RTSViewController.m */,
+				DBF7020219B4651F00A8ACE2 /* Main.storyboard */,
+				DBF7020519B4651F00A8ACE2 /* Images.xcassets */,
+				DBF701F819B4651F00A8ACE2 /* Supporting Files */,
+				DBF7021D19B4668800A8ACE2 /* Frameworks */,
+			);
+			path = FirebaseSimpleChat;
+			sourceTree = "<group>";
+		};
+		DBF701F819B4651F00A8ACE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBF701F919B4651F00A8ACE2 /* Info.plist */,
+				DBF701FA19B4651F00A8ACE2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBF7020E19B4651F00A8ACE2 /* FirebaseSimpleChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBF7021119B4651F00A8ACE2 /* FirebaseSimpleChatTests.m */,
+				DBF7020F19B4651F00A8ACE2 /* Supporting Files */,
+			);
+			path = FirebaseSimpleChatTests;
+			sourceTree = "<group>";
+		};
+		DBF7020F19B4651F00A8ACE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBF7021019B4651F00A8ACE2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBF7021D19B4668800A8ACE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBF7022619B4671600A8ACE2 /* Firebase.framework */,
+				DBF7022419B466C400A8ACE2 /* SystemConfiguration.framework */,
+				DBF7022219B466B300A8ACE2 /* Security.framework */,
+				DBF7022019B466AB00A8ACE2 /* CFNetwork.framework */,
+				DBF7021E19B466A100A8ACE2 /* libc++.dylib */,
+				DBF7021B19B4668100A8ACE2 /* libicucore.dylib */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBF701F419B4651F00A8ACE2 /* FirebaseSimpleChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF7021519B4651F00A8ACE2 /* Build configuration list for PBXNativeTarget "FirebaseSimpleChat" */;
+			buildPhases = (
+				DBF701F119B4651F00A8ACE2 /* Sources */,
+				DBF701F219B4651F00A8ACE2 /* Frameworks */,
+				DBF701F319B4651F00A8ACE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirebaseSimpleChat;
+			productName = FirebaseSimpleChat;
+			productReference = DBF701F519B4651F00A8ACE2 /* FirebaseSimpleChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBF7020A19B4651F00A8ACE2 /* FirebaseSimpleChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF7021819B4651F00A8ACE2 /* Build configuration list for PBXNativeTarget "FirebaseSimpleChatTests" */;
+			buildPhases = (
+				DBF7020719B4651F00A8ACE2 /* Sources */,
+				DBF7020819B4651F00A8ACE2 /* Frameworks */,
+				DBF7020919B4651F00A8ACE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBF7020D19B4651F00A8ACE2 /* PBXTargetDependency */,
+			);
+			name = FirebaseSimpleChatTests;
+			productName = FirebaseSimpleChatTests;
+			productReference = DBF7020B19B4651F00A8ACE2 /* FirebaseSimpleChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBF701ED19B4651F00A8ACE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Roger Stephen";
+				TargetAttributes = {
+					DBF701F419B4651F00A8ACE2 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					DBF7020A19B4651F00A8ACE2 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = DBF701F419B4651F00A8ACE2;
+					};
+				};
+			};
+			buildConfigurationList = DBF701F019B4651F00A8ACE2 /* Build configuration list for PBXProject "FirebaseSimpleChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBF701EC19B4651F00A8ACE2;
+			productRefGroup = DBF701F619B4651F00A8ACE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBF701F419B4651F00A8ACE2 /* FirebaseSimpleChat */,
+				DBF7020A19B4651F00A8ACE2 /* FirebaseSimpleChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBF701F319B4651F00A8ACE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF7020419B4651F00A8ACE2 /* Main.storyboard in Resources */,
+				DBF7020619B4651F00A8ACE2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF7020919B4651F00A8ACE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBF701F119B4651F00A8ACE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF7020119B4651F00A8ACE2 /* RTSViewController.m in Sources */,
+				DBF701FE19B4651F00A8ACE2 /* RTSAppDelegate.m in Sources */,
+				DBF701FB19B4651F00A8ACE2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF7020719B4651F00A8ACE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF7021219B4651F00A8ACE2 /* FirebaseSimpleChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBF7020D19B4651F00A8ACE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBF701F419B4651F00A8ACE2 /* FirebaseSimpleChat */;
+			targetProxy = DBF7020C19B4651F00A8ACE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBF7020219B4651F00A8ACE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBF7020319B4651F00A8ACE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBF7021319B4651F00A8ACE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DBF7021419B4651F00A8ACE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBF7021619B4651F00A8ACE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FirebaseSimpleChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBF7021719B4651F00A8ACE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FirebaseSimpleChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DBF7021919B4651F00A8ACE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FirebaseSimpleChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirebaseSimpleChat.app/FirebaseSimpleChat";
+			};
+			name = Debug;
+		};
+		DBF7021A19B4651F00A8ACE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FirebaseSimpleChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirebaseSimpleChat.app/FirebaseSimpleChat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBF701F019B4651F00A8ACE2 /* Build configuration list for PBXProject "FirebaseSimpleChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF7021319B4651F00A8ACE2 /* Debug */,
+				DBF7021419B4651F00A8ACE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBF7021519B4651F00A8ACE2 /* Build configuration list for PBXNativeTarget "FirebaseSimpleChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF7021619B4651F00A8ACE2 /* Debug */,
+				DBF7021719B4651F00A8ACE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBF7021819B4651F00A8ACE2 /* Build configuration list for PBXNativeTarget "FirebaseSimpleChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF7021919B4651F00A8ACE2 /* Debug */,
+				DBF7021A19B4651F00A8ACE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBF701ED19B4651F00A8ACE2 /* Project object */;
+}
